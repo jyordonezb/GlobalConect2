@@ -1,0 +1,136 @@
+*{
+    margin:0;
+    padding: 0;
+}
+.navbar{
+    padding-right: 50px;
+}
+.navbar li:hover{
+    background: #e9ecf8;
+}
+.logo{
+    width: 110px;
+    height: auto;   
+}
+/*.container-fluid{
+    padding-left: 30px;
+    padding-right: 60px;
+}*/
+.slogan{
+    text-align:center;
+    /*background: #1877f2;*/
+}
+.social{
+    width: 100px;
+    /* box-sizing: border-box;
+    -webkit-box-sizing: border-box; */
+    text-decoration: none;
+    position: fixed;
+    right:0;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    bottom: 35%;
+    /*background: #1877f2;*/
+}
+#boton{
+    padding: 10px;
+    color: aliceblue;
+    background: #D43089;
+    border: none;
+    outline: none;
+}
+.barra{
+    width: 80%;
+    /*background: #fff;*/
+    list-style: none;
+    padding-right: 0 ;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+   
+}
+.barra li{
+    list-style: none;
+    width: 80%;
+}
+.barra li a{
+    text-align: center;
+    padding: 10px;
+    display: block;
+    color: aliceblue;
+}
+.social  li .bi-facebook{
+background: #1877f2;
+}
+.social li .bi-instagram{
+    background: #D43089;
+}
+.social li .bi-youtube{
+    background: #FF0000;
+}
+.social li .bi-twitter-x{
+    background: #000000;
+}
+.social li .bi-tiktok{
+    background: #FE2C55;
+}
+.barra li:hover {
+    width: 100%;
+    background: #000;
+    transition: all .3s;
+}
+.container-carrusel{
+    margin-top: 10px;
+    width: 50%;
+    height: auto;
+    /*background: #FE2C55;*/
+}
+.carousel-inner{
+    background: #020a31;
+    height: 700px;
+    width: 100%;
+    align-content: center;
+}
+.d-block{
+    text-align: center;
+    width: 80%;
+    height: 700px;
+    padding-left: 20%;
+}
+.container-mision{
+    border-radius: 10PX;
+    margin-top: 30px;
+    /* background: #e6ebfe; */
+    padding: 10px;
+}
+.container-mision H2{
+    text-align: center;
+}
+.container-mision p{
+    text-align: center;
+    font-size: 30px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.container-vision{
+    border-radius: 10PX;
+    margin-top: 30px;
+    padding: 10px;
+    /* background: #e6ebfe; */
+}
+.container-vision H2{
+    text-align: center;
+}
+.container-vision p{
+    text-align: center;
+    font-size: 30px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.container-footer{
+    height: 80px;
+    text-align: center;
+    color:burlywood;
+    font-size: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding-top: 25px;
+}
