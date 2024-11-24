@@ -14,6 +14,12 @@
 .logo{
     width: 110px;
     height: auto;
+    margin-left: 15px; 
+}
+.navbar-brand{
+    /* background-color: #020a31; */
+    margin: 0;
+    padding: 0;
 }
 /*.container-fluid{
     padding-left: 30px;
@@ -169,17 +175,54 @@ border-top-left-radius: 10px;
     color:burlywood;
     font-size: 20px;
     font-family: Georgia, 'Times New Roman', Times, serif;
-    padding-top: 25px;
+    padding-top: 20px;
 }
 .card{
     text-align: center;
-    margin: 10px;
+    /* margin: 10px; */
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
     transition: 0.3s;
+    width: 100%;
 }
 .card:hover {
     box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
   }
-  .card-container{
-    text-align: end;
+
+.card-container{
+    /* text-align: end; */
   }
+  
+.container-card{
+    width: 40%;
+    margin-top: 15px;
+    margin-left: 15%;
+    text-align: center;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+}
+.container-card2{
+    width: 40%;
+    margin-left: 50%;
+    margin-top: 15px;
+    margin-bottom: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+}
+@media (max-width:550px){
+    .container-card{
+        width: 100% !important;
+        margin: 0;
+        margin: 5px;
+    }
+    .container-card2{
+        width: 100% !important;
+        margin: 0;
+        margin: 5px;
+    }
+    .social{
+        display: none;
+    }
+    .container-carrusel{
+        width: 100%;
+    }
+}
