@@ -1,203 +1,462 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="esta pagina trata de conecciones globales">
-    <meta name="keywords" content="comunicación,proyectos,salud,belleza,conexiones,organizaciones">
-    <meta name="autor" content="Jose Yovany Ordoñez">
-    <title>Global Conet</title>
-    <link rel="icon" href="img/logo.jpeg">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
-    <link rel="stylesheet" type="text/css" href="css/styles.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="esta pagina trata de conecciones globales">
+  <meta name="keywords" content="comunicación,proyectos,salud,belleza,conexiones,organizaciones">
+  <meta name="autor" content="Jose Yovany Ordoñez">
+  <title>Global Conet</title>
+  <link rel="icon" href="img/logo.jpeg">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+  <link rel="stylesheet" type="text/css" href="css/styles.css">
 </head>
+
 <body>
-    <nav class="navbar navbar-expand-lg bg-light" data-bs-theme="light">
-        <div class="container-fluid">
-          <a class="navbar-brand" href="index.html">
-            <img class="logo" src="img/icono.png ">
-         </a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarNavDropdown">
-            <ul class="navbar-nav ms-auto">
-              <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="index.html">Inicio</a>
-              </li>
-              <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                  Valores
-                </a>
-                <ul class="dropdown-menu">
-                  <li><a class="dropdown-item" href="#">Comunicación Efectiva</a></li>
-                  <li><a class="dropdown-item" href="#">Innovación</a></li>
-                  <li><a class="dropdown-item" href="#">Compromiso</a></li>
-                  <li><a class="dropdown-item" href="#">Colaboración</a></li>
-                  <li><a class="dropdown-item" href="#">Conciencia Global</a></li>
-                  <li><a class="dropdown-item" href="#">Orgullo Nacional</a></li>
-                </ul>
-              </li>
-              <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                  Areas
-                </a>
-                <ul class="dropdown-menu">
-                  <li><a class="dropdown-item" href="comunicaciones.html">Global Conect-Comunicaciones</a></li>
-                  <li><a class="dropdown-item" href="#">Global Conect-Proyectos</a></li>
-                  <li><a class="dropdown-item" href="#">Global Conect-Salud y Belleza</a></li>
-                </ul>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#mision">Misión</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#vision">Visión</a>
-              </li>
+  <!-- Barra de navegación -->
+  <nav class="navbar navbar-expand-lg">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="index.html">
+        <img class="logo" src="img/icono.png" alt="GlobalConect Logo">
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
+        aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNavDropdown">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="index.html">Inicio</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Valores
+            </a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="#">Comunicación Efectiva</a></li>
+              <li><a class="dropdown-item" href="#">Innovación</a></li>
+              <li><a class="dropdown-item" href="#">Compromiso</a></li>
+              <li><a class="dropdown-item" href="#">Colaboración</a></li>
+              <li><a class="dropdown-item" href="#">Conciencia Global</a></li>
+              <li><a class="dropdown-item" href="#">Orgullo Nacional</a></li>
             </ul>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Áreas
+            </a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="/comunicaciones.html">Global Conect-Comunicaciones</a></li>
+              <li><a class="dropdown-item" href="#">Global Conect-Proyectos</a></li>
+              <li><a class="dropdown-item" href="#">Global Conect-Salud y Belleza</a></li>
+            </ul>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#info">Misión</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#info">Visión</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#blogs">Blogs</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="/voluntariosglobalconect.html">Voluntarios</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Banner -->
+  <div class="banner">
+    <h1 class="display-4">Bienvenidos a GlobalConect</h1>
+    <p class="lead">Conectamos el mundo para transformar vidas.</p>
+    <a href="#info" class="btn btn-light btn-lg">Descubre Más</a>
+  </div>
+  <!-- contenedor baner slogan -->
+  <div class="container-fluid contenedor-slogan">
+    <div class="row">
+      <div class=" col-6 slogan "><img class="imslogan1" src="img/GC.jpeg" alt=""></div>
+      <div class=" col-6 slogan2  "><img class="imslogan" src="img/code testing.jpg" alt=""></div>
+    </div>
+  </div>
+
+  <!-- contenedor baner slogan -->
+  <!-- <div class="container-fluid contenedor-banner  bg-danger">
+    <div class="banner">
+      <img src="img/banner prueba.jpg" width="100%" alt="">
+    </div>
+  </div> -->
+
+  <!-- Sección de Valores -->
+  <div class="container values-section">
+    <h2>Nuestros Valores</h2>
+    <div class="row mt-4 g-4">
+      <div class="col-md-4">
+        <div class="card">
+          <div class="card-body">
+            <h5 class="card-title">Comunicación Efectiva</h5>
+            <p class="card-text">Valoramos la claridad y la estrategia en la comunicación para conectar a los agentes de
+              cambio.</p>
           </div>
         </div>
-      </nav>
-
-      <div class="container-fluid contenedor-slogan">
-        <div class="row">
-            <div class=" col-6 slogan "><img class="imslogan1" src="img/GC.jpeg" alt=""></div>
-            <div class=" col-6 slogan2  "><img class="imslogan" src="img/code testing.jpg" alt=""></div>
+      </div>
+      <div class="col-md-4">
+        <div class="card">
+          <div class="card-body">
+            <h5 class="card-title">Innovación</h5>
+            <p class="card-text">Implementamos nuevas ideas, integrando las tecnologías para abordar desafíos globales
+              desde una perspectiva local.</p>
+          </div>
         </div>
       </div>
+      <div class="col-md-4">
+        <div class="card">
+          <div class="card-body">
+            <h5 class="card-title">Compromiso</h5>
+            <p class="card-text">Nos dedicamos con pasión y excelencia a mejorar la salud, la vida y las conexiones de
+              las personas en el mundo.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="card">
+          <div class="card-body">
+            <h5 class="card-title">Colaboración</h5>
+            <p class="card-text">Fomentamos el trabajo conjunto y las alianzas para generar un impacto significativo a
+              nivel global.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="card">
+          <div class="card-body">
+            <h5 class="card-title">Conciencia Global</h5>
+            <p class="card-text">Adoptamos una perspectiva global en todas nuestras acciones y decisiones, con un
+              enfoque en las necesidades locales.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="card">
+          <div class="card-body">
+            <h5 class="card-title">Orgullo Nacional</h5>
+            <p class="card-text">Nos esforzamos por hacer que Honduras sea reconocida a nivel global por sus
+              contribuciones positivas y su innovación.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
 
-      <div class="social ">
-        <!-- <div class="boton">
+
+  <!-- Información -->
+  <div class="container mt-5" id="info">
+    <h2 class="section-title text-center mb-4">Acerca de Nosotros</h2>
+    <div class="info-section">
+      <h4 class="text-primary">Nuestra Misión</h4>
+      <p>
+        En Global Conect, nuestra misión es transformar la vida de nuestros clientes creando conexiones significativas.
+        Nos vemos como el puente que une a los principales actores de la sociedad a través de una comunicación efectiva,
+        impulsando proyectos destinados a cambiar el mundo de manera positiva.
+      </p>
+    </div>
+    <div class="info-section">
+      <h4 class="text-primary">Nuestra Visión</h4>
+      <p>
+        Nuestra visión es alcanzar el reconocimiento global como líderes en la creación de conexiones entre individuos y
+        organizaciones,
+        mejorando la condición de vida de las personas mediante estrategias de comunicación corporativa innovadoras y
+        proyectos de alto impacto,
+        alineados con los objetivos de desarrollo sostenible.
+      </p>
+    </div>
+    <div class="info-section">
+      <h4 class="text-primary">Áreas Clave</h4>
+      <ul>
+        <li>Comunicaciones</li>
+        <li>Investigaciones y Proyectos</li>
+        <li>Voluntarios</li>
+        <li>Salud y Belleza</li>
+      </ul>
+    </div>
+  </div>
+
+  <!-- contenedor barra redes sociales lateral -->
+  <div class="social ">
+    <!-- <div class="boton">
             <button id="boton">></button>
         </div> -->
-        <div class="barra">
-            <li><a href="https://www.facebook.com/" target="_blank" class="bi bi-facebook"></a></li>
-            <li><a href="https://www.instagram.com/" target="_blank" class="bi bi-instagram"></a></li>
-            <li><a href="https://www.youtube.com/"target="_blank"  class="bi bi-youtube"></a></li>
-            <li><a href="https://x.com/?mx=2" target="_blank" class="bi bi-twitter-x"></a></li>
-            <li><a href="https://www.tiktok.com/es/" target="_blank" class="bi bi-tiktok"></a></li>
-        </div>
-      </div>
 
-      <div class="container-fluid contenedor-banner  bg-danger" >
-        <div class="banner">
-          <img src="img/banner prueba.jpg" width="100%" alt="">
-        </div>
-      </div>
-        
-      <div class="container-carrusel container-fluid">
-        <div class="row">
-            <div id="carouselExampleIndicators" class="carousel slide">
-                <div class="carousel-indicators">
-                  <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-                  <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
-                </div>
-                <div class="carousel-inner">
-                  <div class="carousel-item active">
-                    <img src="img/proyect in porces.jpg" class="d-block " alt="...">
-                    <div class="carousel-caption d-none d-md-block">
-                        <h1>Proyect in Procces</h1>
-                        <p>Some representative placeholder content for the second slide.</p>
-                      </div>
-                  </div>
-                  <div class="carousel-item active">
-                    <img src="img/1731972650748.jpg" class="d-block " alt="...">
-                  </div>
-                </div>
-                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
-                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                  <span class="visually-hidden">Previous</span>
-                </button>
-                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
-                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                  <span class="visually-hidden">Next</span>
-                </button>
-              </div>
-        </div>
-      </div>
-     <div class="container-card ">
-       <div class="row">
-         <div class="col">
-            <div class="card">
-             <img src="img/OIP.jpeg" class="card-img-top" alt="...">
-             <div class="card-body">
-                <h2>MISION</h2>
-               <p class="card-text">En “Global Conect”, nuestra misión es mejorar la vida de nuestros clientes a través de la creación de conexiones significativas. Actuamos como el puente que une a los principales agentes de la sociedad mediante una comunicación efectiva e impulsamos proyectos que buscan transformar al mundo de manera positiva.</p>
-             </div>
-           </div> 
-         </div>
-        </div>
-     </div>
-     <div class="container-card2">
-      <div class="row">
-        <div class="col">
-           <div class="card">
-            <img src="img/ciudad.jpeg" class="card-img-top" alt="...">
-            <div class="card-body">
-              <h2>VISION</h2>
-              <p class="card-text">Nuestra visión es ser reconocidos a nivel global como líderes en la creación de conexiones entre individuos y organizaciones, mejorando la vida y el bienestar de las personas mediante estrategias de comunicación corporativas innovadoras y proyectos de gran impacto basado en los objetivos de desarrollo sostenible. Actuamos como el puente que une a los principales agentes de la sociedad mediante una comunicación efectiva e impulsamos proyectos que buscan transformar al mundo de manera positiva.</p>
-            </div>
-          </div> 
-        </div>
-       </div>
+    <div class="barra">
+      <li><a href="https://www.facebook.com/" target="_blank" class="bi bi-facebook"></a></li>
+      <li><a href="https://www.instagram.com/" target="_blank" class="bi bi-instagram"></a></li>
+      <li><a href="https://www.youtube.com/" target="_blank" class="bi bi-youtube"></a></li>
+      <li><a href="https://x.com/?mx=2" target="_blank" class="bi bi-twitter-x"></a></li>
+      <li><a href="https://www.tiktok.com/es/" target="_blank" class="bi bi-tiktok"></a></li>
     </div>
+  </div>
 
-    <div class="container  mt-5 mb-4  text-center bg-light">
-      <div class="row">
-        <div class="col-md-4">
-          <div class="card3 border-0">
-            <img src="img/ciudad.jpeg" class="card-img-top rounded-circle" alt="...">
-            <div class="card-body">
-              <h2>Comunici+on Efectiva</h2>
-              <p class="card-text">Nuestra visión es ser reconocidos a nivel global como líderes en la creación de conexiones entre individuos y organizaciones, mejorando la vida y el bienestar de las personas mediante estrategias de comunicación corporativas innovadoras y proyectos de gran impacto basado en los objetivos de desarrollo sostenible. Actuamos como el puente que une a los principales agentes de la sociedad mediante una comunicación efectiva e impulsamos proyectos que buscan transformar al mundo de manera positiva.</p>
-            </div>
-          </div> 
+  <!-- contenedor carrusel -->
+  <!-- <div class="container-carrusel container-fluid">
+    <div class="row">
+      <div id="carouselExampleIndicators" class="carousel slide">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
+            aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+            aria-label="Slide 2"></button>
         </div>
-        <div class="col-md-4">
-          <div class="card3 border-0">
-            <img src="img/ciudad.jpeg" class="card-img-top rounded-circle" alt="...">
-            <div class="card-body">
-              <h2>Innovación</h2>
-              <p class="card-text">Nuestra visión es ser reconocidos a nivel global como líderes en la creación de conexiones entre individuos y organizaciones, mejorando la vida y el bienestar de las personas mediante estrategias de comunicación corporativas innovadoras y proyectos de gran impacto basado en los objetivos de desarrollo sostenible. Actuamos como el puente que une a los principales agentes de la sociedad mediante una comunicación efectiva e impulsamos proyectos que buscan transformar al mundo de manera positiva.</p>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="img/ciudad.jpeg" class="d-block " alt="...">
+            <div class="carousel-caption d-none d-md-block">
+              <h1>Proyect in Procces</h1>
+              <p>Some representative placeholder content for the second slide.</p>
             </div>
-          </div> 
+          </div>
+          <div class="carousel-item active">
+            <img src="img/OIP.jpeg" class="d-block " alt="...">
+          </div>
         </div>
-        <div class="col-md-4">
-          <div class="card3 border-0">
-            <img src="img/ciudad.jpeg" class="card-img-top rounded-circle" alt="...">
-            <div class="card-body">
-              <h2>Compromiso</h2>
-              <p class="card-text">Nuestra visión es ser reconocidos a nivel global como líderes en la creación de conexiones entre individuos y organizaciones, mejorando la vida y el bienestar de las personas mediante estrategias de comunicación corporativas innovadoras y proyectos de gran impacto basado en los objetivos de desarrollo sostenible. Actuamos como el puente que une a los principales agentes de la sociedad mediante una comunicación efectiva e impulsamos proyectos que buscan transformar al mundo de manera positiva.</p>
-            </div>
-          </div> 
-        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+          data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+          data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
       </div>
     </div>
-    <div class="container mb-5">
-      <div class="row">
-        <div class="col">
-          <div class="form contaier d-block h-25 ">
-            <H2>Contactanos</H2>
-            <label for="">Nombre</label>
-            <input type="text" name="Nombre" id="" placeholder="Ingrese su nombre">
-            <label for="">Correo</label>
-            <input type="email" name="correo" id="" placeholder="ingrese su correo">
-            <label for="">Numero de Telefono</label>
-            <input type="number" name="elefono" id="" placeholder="numero de telefono">
+  </div> -->
+  <!-- <div class="container-card ">
+    <div class="row">
+      <div class="col">
+        <div class="card">
+          <img src="img/OIP.jpeg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h2>MISION</h2>
+            <p class="card-text">En “Global Conect”, nuestra misión es mejorar la vida de nuestros clientes a través de
+              la creación de conexiones significativas. Actuamos como el puente que une a los principales agentes de la
+              sociedad mediante una comunicación efectiva e impulsamos proyectos que buscan transformar al mundo de
+              manera positiva.</p>
           </div>
         </div>
       </div>
     </div>
-      
-     
-     <div class="container-footer container-fluid bg-dark">
-        <div class="row">
-            <div class="col">
-              2024 © Global-Conect HN
+  </div>
+  <div class="container-card2">
+    <div class="row">
+      <div class="col">
+        <div class="card">
+          <img src="img/ciudad.jpeg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h2>VISION</h2>
+            <p class="card-text">Nuestra visión es ser reconocidos a nivel global como líderes en la creación de
+              conexiones entre individuos y organizaciones, mejorando la vida y el bienestar de las personas mediante
+              estrategias de comunicación corporativas innovadoras y proyectos de gran impacto basado en los objetivos
+              de desarrollo sostenible. Actuamos como el puente que une a los principales agentes de la sociedad
+              mediante una comunicación efectiva e impulsamos proyectos que buscan transformar al mundo de manera
+              positiva.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div> -->
+
+  <!-- seccion de contenedor areas -->
+  <div class="container mt-5 mb-4 ">
+    <div class="row">
+      <!-- Comunicación -->
+      <div class="col-lg-4 col-md-6 mb-4">
+        <div class="card3 border-0 shadow">
+          <img src="img/logo2.jpeg" class="card-img-top mt-3" alt="Comunicaciónes">
+          <div class="card-body mt-3">
+            <h2 class="text-primary">Comunicaciónes</h2>
+            <p class="card-text text-muted">En el área de comunicaciones, nos especializamos en estrategias que conectan
+              a los agentes de cambio mediante métodos claros y estratégicos.
+              Ofrecemos servicios como relaciones públicas, comunicación corporativa, producción audiovisual, campañas
+              de marketing digital y publicidad.
+              Todo diseñado para maximizar el alcance y la efectividad de los mensajes de nuestros asociados.
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Investigación & Proyectos -->
+      <div class="col-lg-4 col-md-6 mb-4">
+        <div class="card3 border-0 shadow">
+          <img src="img/logo_proyectos.jpeg" class="card-img-top mt-3" alt="Investigación & Proyectos">
+          <div class="card-body mt-3">
+            <h2 class="text-primary">Investigación & Proyectos</h2>
+            <p class="card-text text-muted">En investigaciones y proyectos, colaboramos con instituciones
+              gubernamentales y no gubernamentales para llevar a cabo estudios fundamentados
+              en metodologías y herramientas que fomentan el desarrollo de investigaciones y proyectos
+              para promover un progreso sostenible que aborde desafíos globales.
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Salud y Belleza -->
+      <div class="col-lg-4 col-md-6 mb-4">
+        <div class="card3 border-0 shadow">
+          <img src="img/logo_saludbelleza.jpeg" class="card-img-top mt-3" alt="Salud y Belleza">
+          <div class="card-body mt-3">
+            <h2 class="text-primary">Salud y Belleza</h2>
+            <p class="card-text text-muted">En el ámbito de salud y belleza, estamos convencidos de que la salud es
+              fundamental para el desarrollo sostenible, por esa razón,
+              promovemos servicios innovadores que mejoran la calidad de vida,
+              trabajando con expertos para desarrollar soluciones integrales que van desde tratamientos de bienestar
+              físico hasta procesos estéticos,
+              garantizando un impacto positivo y seguro en la comunidad global.
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Salud y Belleza -->
+      <div class="col-lg-4 col-md-6 mb-4">
+        <div class="card3 border-0 shadow">
+          <img src="img/logo_voluntarios.jpeg" class="card-img-top mt-3" alt="Salud y Belleza">
+          <div class="card-body mt-3">
+            <h2 class="text-primary">Voluntarios</h2>
+            <p class="card-text text-muted">Con Voluntarios Global Conect, agrupamos agentes de cambio que están
+              dispuesto a trabajar por la comunidad y la sociedad a nivel nacional e internacional,
+              impulsando actividades altruistas financiadas por la cooperación internacional,
+              acciones que son gestionadas y ejecutadas por nuestra empresa.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- seccion opcion global conect -->
+  <section class="about-section py-5 bg-light text-center">
+    <div class="container">
+      <h2 class="text-primary mb-4">¿Por qué elegir Global Conect?</h2>
+      <p class="about-text text-muted mx-auto mb-4">
+        Por esto, y muchas cosas más, <strong>Global Conect</strong> se posiciona como un referente en comunicación
+        corporativa y en la creación de conexiones que promuevan cambios positivos tanto en Honduras como a nivel
+        global.
+        Nos dedicamos a facilitar interacciones significativas y estratégicas entre los principales agentes del cambio,
+        impulsando proyectos que no solo mejoran la vida de las personas, sino que también promueven un desarrollo
+        sostenible.
+        Nuestra pasión por la excelencia y nuestra dedicación a la innovación nos permiten transformar sociedades a
+        través de conexiones sostenibles.
+      </p>
+      <a href="#contacto" class="btn btn-primary btn-lg shadow animate-hover">Conoce más sobre nosotros</a>
+    </div>
+  </section>
+
+  <!-- formulario contacto -->
+
+  <!-- <div class="container mt-5 mb-5 bg-light">
+    <h2 class="text-center mb-4">Contáctanos</h2>
+    <form>
+      <div class="row">
+        <div class="col-12 col-md-6">
+          <label class="form-label" for="campo-nombre">Nombre</label>
+          <input class="form-control mb-3 form-control-lg" type="text" id="campo-nombre"
+            placeholder="Escribe tu Nombre">
+          <label class="form-label" for="campo-correo">Correo</label>
+          <input class="form-control mb-3 form-control-lg" type="email" id="campo-correo"
+            placeholder="Escribe tu Correo">
+          <label class="form-label" for="campo-tel">Teléfono</label>
+          <input class="form-control mb-3 form-control-lg" type="tel" id="campo-tel" placeholder="Escribe tu teléfono">
+        </div>
+        <div class="col-12 col-md-6">
+          <label class="form-label" for="campo-comentarios">Comentarios</label>
+          <textarea class="form-control" style="resize: none;" cols="30" rows="9" name=""
+            id="campo-comentarios"></textarea>
+        </div>
+        <button class="btn btn-success btn-lg" type="submit">Enviar</button>
+      </div>
+    </form>
+  </div> -->
+
+  <div class="container container-form mt-5 mb-5 bg-light py-5 px-4 shadow rounded">
+    <h2 class="text-center text-primary mb-4">Contáctanos</h2>
+    <form>
+        <div class="row g-4">
+            <!-- Campo Nombre -->
+            <div class="col-12 col-md-6">
+                <label class="form-label fw-bold" for="campo-nombre">Nombre</label>
+                <input class="form-control form-control-lg" type="text" id="campo-nombre" placeholder="Escribe tu Nombre">
+            </div>
+
+            <!-- Campo Correo -->
+            <div class="col-12 col-md-6">
+                <label class="form-label fw-bold" for="campo-correo">Correo</label>
+                <input class="form-control form-control-lg" type="email" id="campo-correo" placeholder="Escribe tu Correo">
+            </div>
+
+            <!-- Campo Teléfono -->
+            <div class="col-12 col-md-6">
+                <label class="form-label fw-bold" for="campo-tel">Teléfono</label>
+                <input class="form-control form-control-lg" type="tel" id="campo-tel" placeholder="Escribe tu Teléfono">
+            </div>
+
+            <!-- Campo Comentarios -->
+            <div class="col-12 col-md-6">
+                <label class="form-label fw-bold" for="campo-comentarios">Comentarios</label>
+                <textarea class="form-control form-control-lg" style="resize: none;" cols="30" rows="6" id="campo-comentarios" placeholder="Escribe tus comentarios aquí"></textarea>
+            </div>
+
+            <!-- Botón Enviar -->
+            <div class="col-12 text-center">
+                <button class="btn btn-primary btn-lg px-5 py-2 shadow-sm rounded-pill" type="submit">Enviar</button>
             </div>
         </div>
-     </div> 
+    </form>
+</div>
+
+  <!-- contenedor pie de pagina -->
+  <!-- <div class="container-footer container-fluid bg-dark">
+    <div class="row">
+      <div class="col">
+        2024 © Global Conect HN | todos los derechos reservados
+      </div>
+      <div class="col-12">
+        globalconecthn@gmail.com
+      </div>
+    </div>
+  </div> -->
+  <footer class="container-footer container-fluid bg-dark text-light py-4">
+    <div class="row text-center">
+        <div class="col-12 col-md-6 mb-3 mb-md-0">
+            <p class="mb-0">2024 © <strong>Global Conect HN</strong> | Todos los derechos reservados</p>
+        </div>
+        <div class="col-12 col-md-6">
+            <p class="mb-0">
+                <i class="fas fa-envelope"></i> globalconecthn@gmail.com
+            </p>
+        </div>
+    </div>
+    <div class="row text-center mt-3">
+        <div class="col">
+            <a href="https://www.facebook.com" target="_blank" class="text-light mx-2">
+                <i class="fab fa-facebook-f"></i>
+            </a>
+            <a href="https://www.instagram.com" target="_blank" class="text-light mx-2">
+                <i class="fab fa-instagram"></i>
+            </a>
+            <a href="https://www.linkedin.com" target="_blank" class="text-light mx-2">
+                <i class="fab fa-linkedin-in"></i>
+            </a>
+        </div>
+    </div>
+</footer>
+
 </body>
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+  integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+
 </html>
