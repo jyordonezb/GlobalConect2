@@ -8,7 +8,7 @@
   <meta name="keywords" content="comunicación,proyectos,salud,belleza,conexiones,organizaciones">
   <meta name="autor" content="Jose Yovany Ordoñez">
   <title>Global Conet</title>
-  <link rel="icon" href="img/logo.jpeg">
+  <link rel="icon" href="assets/img/logo.jpeg">
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
   <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
@@ -22,7 +22,7 @@
   <nav class="navbar navbar-expand-lg">
     <div class="container-fluid">
       <a class="navbar-brand" href="index.html">
-        <img class="logo" src="img/icono.png" alt="GlobalConect Logo">
+        <img class="logo" src="assets/img/icono.png" alt="GlobalConect Logo">
       </a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
         aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
@@ -35,27 +35,29 @@
           </li>
           <li class="nav-item dropdown">
             <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-              Valores
+              Áreas
             </a>
             <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="globalconectcomunicaciones.html">Global Conect-Comunicaciones</a></li>
+              <li><a class="dropdown-item" href="globalconectproyectos.html">Global Conect-Proyectos</a></li>
+              <li><a class="dropdown-item" href="globalconectsaludbelleza.html">Global Conect-Salud y Belleza</a></li>
+              <li><a class="dropdown-item" href="voluntariosglobalconect.html">Voluntarios GlobalConect</a></li>
+            </ul>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Valores
+            </a>
+            <!-- <ul class="dropdown-menu">
               <li><a class="dropdown-item" href="#">Comunicación Efectiva</a></li>
               <li><a class="dropdown-item" href="#">Innovación</a></li>
               <li><a class="dropdown-item" href="#">Compromiso</a></li>
               <li><a class="dropdown-item" href="#">Colaboración</a></li>
               <li><a class="dropdown-item" href="#">Conciencia Global</a></li>
               <li><a class="dropdown-item" href="#">Orgullo Nacional</a></li>
-            </ul>
+            </ul> -->
           </li>
-          <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-              Áreas
-            </a>
-            <ul class="dropdown-menu">
-              <li><a class="dropdown-item" href="/comunicaciones.html">Global Conect-Comunicaciones</a></li>
-              <li><a class="dropdown-item" href="#">Global Conect-Proyectos</a></li>
-              <li><a class="dropdown-item" href="#">Global Conect-Salud y Belleza</a></li>
-            </ul>
-          </li>
+          
           <li class="nav-item">
             <a class="nav-link" href="#info">Misión</a>
           </li>
@@ -77,13 +79,13 @@
   <div class="banner">
     <h1 class="display-4">Bienvenidos a GlobalConect</h1>
     <p class="lead">Conectamos el mundo para transformar vidas.</p>
-    <a href="#info" class="btn btn-light btn-lg">Descubre Más</a>
+    <a href="#areas" class="btn btn-light btn-lg">Descubre Más</a>
   </div>
   <!-- contenedor baner slogan -->
   <div class="container-fluid contenedor-slogan">
     <div class="row">
-      <div class=" col-6 slogan "><img class="imslogan1" src="img/GC.jpeg" alt=""></div>
-      <div class=" col-6 slogan2  "><img class="imslogan" src="img/code testing.jpg" alt=""></div>
+      <div class=" col-6 slogan "><img class="imslogan1" src="assets/img/GC.jpeg" alt=""></div>
+      <div class=" col-6 slogan2  "><img class="imslogan" src="assets/img/code testing.jpg" alt=""></div>
     </div>
   </div>
 
@@ -177,7 +179,7 @@
         alineados con los objetivos de desarrollo sostenible.
       </p>
     </div>
-    <div class="info-section">
+    <!-- <div class="info-section">
       <h4 class="text-primary">Áreas Clave</h4>
       <ul>
         <li>Comunicaciones</li>
@@ -185,7 +187,7 @@
         <li>Voluntarios</li>
         <li>Salud y Belleza</li>
       </ul>
-    </div>
+    </div> -->
   </div>
 
   <!-- contenedor barra redes sociales lateral -->
@@ -294,12 +296,13 @@
   </div> -->
 
   <!-- seccion de contenedor areas -->
-  <div class="container mt-5 mb-4 ">
+  <div class="container mt-5 mb-4 " id="areas">
+    <h2 class="section-title text-center mb-4">Aréas Clave</h2>
     <div class="row">
       <!-- Comunicación -->
       <div class="col-lg-4 col-md-6 mb-4">
         <div class="card3 border-0 shadow">
-          <img src="img/logo2.jpeg" class="card-img-top mt-3" alt="Comunicaciónes">
+          <img src="assets/img/logo2.jpeg" class="card-img-top mt-3" alt="Comunicaciónes">
           <div class="card-body mt-3">
             <h2 class="text-primary">Comunicaciónes</h2>
             <p class="card-text text-muted">En el área de comunicaciones, nos especializamos en estrategias que conectan
@@ -315,7 +318,7 @@
       <!-- Investigación & Proyectos -->
       <div class="col-lg-4 col-md-6 mb-4">
         <div class="card3 border-0 shadow">
-          <img src="img/logo_proyectos.jpeg" class="card-img-top mt-3" alt="Investigación & Proyectos">
+          <img src="assets/img/logo_proyectos.jpeg" class="card-img-top mt-3" alt="Investigación & Proyectos">
           <div class="card-body mt-3">
             <h2 class="text-primary">Investigación & Proyectos</h2>
             <p class="card-text text-muted">En investigaciones y proyectos, colaboramos con instituciones
@@ -330,7 +333,7 @@
       <!-- Salud y Belleza -->
       <div class="col-lg-4 col-md-6 mb-4">
         <div class="card3 border-0 shadow">
-          <img src="img/logo_saludbelleza.jpeg" class="card-img-top mt-3" alt="Salud y Belleza">
+          <img src="assets/img/logo_saludbelleza.jpeg" class="card-img-top mt-3" alt="Salud y Belleza">
           <div class="card-body mt-3">
             <h2 class="text-primary">Salud y Belleza</h2>
             <p class="card-text text-muted">En el ámbito de salud y belleza, estamos convencidos de que la salud es
@@ -344,10 +347,10 @@
         </div>
       </div>
 
-      <!-- Salud y Belleza -->
+      <!-- Voluntarios -->
       <div class="col-lg-4 col-md-6 mb-4">
         <div class="card3 border-0 shadow">
-          <img src="img/logo_voluntarios.jpeg" class="card-img-top mt-3" alt="Salud y Belleza">
+          <img src="assets/img/logo_voluntarios.jpeg" class="card-img-top mt-3" alt="Salud y Belleza">
           <div class="card-body mt-3">
             <h2 class="text-primary">Voluntarios</h2>
             <p class="card-text text-muted">Con Voluntarios Global Conect, agrupamos agentes de cambio que están
@@ -374,7 +377,7 @@
         Nuestra pasión por la excelencia y nuestra dedicación a la innovación nos permiten transformar sociedades a
         través de conexiones sostenibles.
       </p>
-      <a href="#contacto" class="btn btn-primary btn-lg shadow animate-hover">Conoce más sobre nosotros</a>
+      <!-- <a href="#areas" class="btn btn-primary btn-lg shadow animate-hover">Conoce más sobre nosotros</a> -->
     </div>
   </section>
 
@@ -487,6 +490,7 @@
 </body>
 
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
-  integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+  integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous">
+</script>
 
 </html>

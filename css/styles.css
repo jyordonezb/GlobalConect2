@@ -13,14 +13,14 @@
     width: auto;
 }
 .nav-link {
-    color: #4a90e2 !important;
+    color: #073771 !important;
     font-weight: bold;
     transition: border-bottom 0.3s ease, transform 0.3s ease;
     border-bottom: 2px solid transparent;
 }
 .nav-link:hover {
-    color: #ff6600 !important; /* Color naranja para el hover */
-    border-bottom: 2px solid #ff6600; /* Borde animado */
+    color: #0099ff !important; /* Color naranja para el hover */
+    border-bottom: 2px solid #05d343; /* Borde animado */
     transform: scale(1.05);
 }
 .dropdown-menu {
@@ -45,7 +45,7 @@
 }
 /* banner bienvenidos*/
 .banner {
-    background: linear-gradient(to right, #4a90e2, #50c9c3);
+    background: linear-gradient(to right, #4a90e2, #48e1d9);
     color: white;
     text-align: center;
     padding: 100px 20px;
