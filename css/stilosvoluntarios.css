@@ -1,0 +1,58 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+/* html {
+    min-height: 100%;
+    position: relative;
+  } */
+body{
+margin: 0;
+background-color: aliceblue;
+/* background-image: url("/img/logo.jpeg");
+background-size: cover; */
+
+}
+/* .caja-volunt{
+  height: 35px;
+  border-bottom-style: solid;
+  border-bottom-color:rgb(8, 215, 42);
+}
+.nav-voluntarios{
+    color: rgb(5, 5, 160) !important;
+}
+.nav-item:hover{
+  height: 35px;
+  border-bottom-style: solid;
+  border-bottom-color: rgb(30, 4, 101);
+  transition: 0.1s;
+} */
+.container-form{
+    /* background-color: rgb(234, 240, 240); */
+    background: linear-gradient(to right, rgb(235, 235, 247), rgb(233, 238, 231));
+    width: 500px;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.3);
+    margin-bottom: 20px;
+}
+.box-genero{
+    text-align: center;
+    padding-top: 10px;
+}
+.form-group{
+    margin-bottom: 12px;
+}
+.box-edad{
+    /* width: 30%; */
+}
+#mensaje {
+    display: none;
+    color: green;
+    font-weight: bold;
+}
+footer{
+    bottom: 0;
+    width: 100%;
+    height: auto;
+    /* position: fixed; */
+}
