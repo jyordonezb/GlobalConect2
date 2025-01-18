@@ -46,7 +46,7 @@
 }
 /* banner bienvenidos*/
 .banner {
-    background: url("/GlobalConect2-main/assets/img/Designer2.png" !important ),
+    background: url("/GlobalConect2-main/assets/img/Designer2.png"),
     linear-gradient(to right, #4a90e2, #48e1d9);
     background-repeat: no-repeat;
     background-size: cover;
