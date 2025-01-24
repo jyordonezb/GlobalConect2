@@ -44,12 +44,14 @@
 .navbar-toggler-icon {
     background-image: url("data:image/svg+xml;charset=UTF8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba%2880, 144, 226, 1%29' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
 }
+
 /* banner bienvenidos*/
 .banner {
-    background: url("GlobalConect2/assets/img/Designer2.png"),
-                linear-gradient(to right, #4a90e2, #48e1d9); 
+    background: url("../assets/img/network-4894813_1920.jpg"),
+                linear-gradient(to right, #4a90e2, #48e1d9);               
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size:cover;
+    background-position:center;
     color: white;
     text-align: center;
     padding: 100px 20px;
@@ -119,8 +121,26 @@
     min-height: 150px; /* Altura mínima */
 }
 
-/* baner de slogan imagenes */
-.slogan{
+.contenedor-slogan{
+    margin: 0;
+    padding: 0;
+    box-shadow: 0 6px 10px rgba(0, 0, 0, 0.2);
+}
+.carousel-inner img{
+    width: 80%;
+    height: 900px;
+}
+#sloganCarousel .carousel-item {
+    transition: transform 2s ease, opacity 1.5s ease;
+  }
+  @media (max-width: 768px) {
+    .carousel-inner img {
+      height: 400px;
+      width: 100%;
+    }
+}
+/*baner de slogan imagenes */
+/* .slogan{
     text-align:center;
     background: #1877f2;
     background: #1877f2;
@@ -152,7 +172,7 @@
     background: #1877f2;
     margin: 0;
     padding: 0;
-}
+} */
 
  /* Estilo general para la barra lateral */
  .barra-social {
@@ -310,27 +330,40 @@ footer .row a:hover {
       font-size: 1.8rem;
     }
   }
-  
-
 
 
 /* conocenos mas */
+
 .about-section {
-    background: linear-gradient(to bottom, #e9f6f9, #eef8ef);
+
+    background-image: url("../assets/img/sophisticated-network-phone-wallpaper-4k.jpg ");
+    background-repeat: no-repeat;
+    background-position: bottom;
+    /* background: linear-gradient(to right, #003366, #33cc33); */
     color: #333;
-    border-top: 3px solid #0202f5;
-    border-bottom: 3px solid #0202f5;
+    border-top: 2px solid #0202f5;
+    border-bottom: 2px solid #0202f5;
+    position: relative;
 }
 
 .about-text {
-    font-size: 1.2rem;
+    color: white !important;
+    font-size: 1.3rem;
     line-height: 1.8;
     max-width: 800px;
     margin: auto;
     text-align: justify;
 }
-
-.btn-primary {
+@media (max-width: 768px) {
+    .about-section {
+       font-size: 10px;
+       height:max-content;
+    }
+    .about-text{
+        font-size: 15px;
+    }
+}
+/* .btn-primary {
     font-size: 1rem;
     font-weight: bold;
     padding: 0.75rem 2rem;
@@ -363,9 +396,9 @@ footer .row a:hover {
 
 .animate-hover:hover:after {
     left: 100%;
-}
+} */
 
-@media (max-width: 767px) {
+/* @media (max-width: 767px) {
     .about-text {
         font-size: 1rem;
     }
@@ -374,7 +407,7 @@ footer .row a:hover {
         width: 100%;
         font-size: 1rem;
     }
-}
+} */
 
 /* Contenedor general formulario */
 .container-form {
@@ -559,3 +592,4 @@ footer .row a:hover {
         display: none;
     }
 }
+  
