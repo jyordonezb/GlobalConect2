@@ -67,10 +67,10 @@
   <!-- Banner -->
   <div class="banner">
     <h1 class="display-4">Bienvenidos a GlobalConect</h1>
-    <p class="lead">Conectamos el mundo para transformar sociedades.</p>
+    <p class="lead">Conectamos el mundo para transformar sociedades</p>
     <a href="#areas" class="btn btn-light btn-lg">Descubre Más</a>
   </div>
-
+ 
   <!-- contenedor baner slogan -->
   <div id="sloganCarousel" class="carousel slide container-fluid contenedor-slogan" data-bs-ride="carousel">
     <div class="carousel-inner">
@@ -295,56 +295,32 @@
 
   <!-- formulario contacto -->
 
-  <!-- <div class="container mt-5 mb-5 bg-light">
-    <h2 class="text-center mb-4">Contáctanos</h2>
-    <form>
-      <div class="row">
-        <div class="col-12 col-md-6">
-          <label class="form-label" for="campo-nombre">Nombre</label>
-          <input class="form-control mb-3 form-control-lg" type="text" id="campo-nombre"
-            placeholder="Escribe tu Nombre">
-          <label class="form-label" for="campo-correo">Correo</label>
-          <input class="form-control mb-3 form-control-lg" type="email" id="campo-correo"
-            placeholder="Escribe tu Correo">
-          <label class="form-label" for="campo-tel">Teléfono</label>
-          <input class="form-control mb-3 form-control-lg" type="tel" id="campo-tel" placeholder="Escribe tu teléfono">
-        </div>
-        <div class="col-12 col-md-6">
-          <label class="form-label" for="campo-comentarios">Comentarios</label>
-          <textarea class="form-control" style="resize: none;" cols="30" rows="9" name=""
-            id="campo-comentarios"></textarea>
-        </div>
-        <button class="btn btn-success btn-lg" type="submit">Enviar</button>
-      </div>
-    </form>
-  </div> -->
-
   <div class="container container-form mt-5 mb-5 bg-light py-5 px-4 shadow rounded">
     <h2 class="text-center text-primary mb-4">Contáctanos</h2>
-    <form>
+    <form method="post" action="mail.php">
       <div class="row g-4">
         <!-- Campo Nombre -->
-        <div class="col-12 col-md-6">
+        <div class="col-12 col-md-12">
           <label class="form-label fw-bold" for="campo-nombre">Nombre</label>
-          <input class="form-control form-control-lg" type="text" id="campo-nombre" placeholder="Escribe tu Nombre">
+          <input class="form-control form-control-lg" type="text" id="campo-nombre" name="nombre" placeholder="Escribe tu Nombre">
         </div>
 
         <!-- Campo Correo -->
-        <div class="col-12 col-md-6">
+        <div class="col-12 col-md-12">
           <label class="form-label fw-bold" for="campo-correo">Correo</label>
-          <input class="form-control form-control-lg" type="email" id="campo-correo" placeholder="Escribe tu Correo">
+          <input class="form-control form-control-lg" type="email" id="campo-correo" name="correo" placeholder="Escribe tu Correo">
         </div>
 
         <!-- Campo Teléfono -->
-        <div class="col-12 col-md-6">
+        <!-- <div class="col-12 col-md-6">
           <label class="form-label fw-bold" for="campo-tel">Teléfono</label>
           <input class="form-control form-control-lg" type="tel" id="campo-tel" placeholder="Escribe tu Teléfono">
-        </div>
+        </div> -->
 
         <!-- Campo Comentarios -->
-        <div class="col-12 col-md-6">
+        <div class="col-12 col-md-12">
           <label class="form-label fw-bold" for="campo-comentarios">Comentarios</label>
-          <textarea class="form-control form-control-lg" style="resize: none;" cols="30" rows="6" id="campo-comentarios"
+          <textarea class="form-control form-control-lg" name="comentarios" style="resize: none;"  cols="30" rows="6" id="campo-comentarios"
             placeholder="Escribe tus comentarios aquí"></textarea>
         </div>
 
@@ -356,17 +332,6 @@
     </form>
   </div>
   
-  <!-- contenedor pie de pagina -->
-  <!-- <div class="container-footer container-fluid bg-dark">
-    <div class="row">
-      <div class="col">
-        2024 © Global Conect HN | todos los derechos reservados
-      </div>
-      <div class="col-12">
-        globalconecthn@gmail.com
-      </div>
-    </div>
-  </div> -->
   <!-- Pie de página -->
   <footer class="container-footer container-fluid bg-dark text-light py-4">
     <div class="row text-center">
