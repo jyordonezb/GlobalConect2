@@ -8,6 +8,7 @@
 .navbar {
     background: linear-gradient(to right, #f7f9fc, #e1e8f0);
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    
 }
 .navbar-brand img {
     height: 70px; /* Tamaño del logo */
@@ -21,7 +22,7 @@
 }
 .nav-link:hover {
     color: #0099ff !important; /* Color naranja para el hover */
-    border-bottom: 2px solid #05d343; /* Borde animado */
+    border-bottom: 2px solid #031d48; /* Borde animado */
     transform: scale(1.05);
 }
 .dropdown-menu {
@@ -52,6 +53,7 @@
     background-repeat: no-repeat;
     background-size:cover;
     background-position:center;
+    background-size: 100%  400px;
     color: white;
     text-align: center;
     padding: 100px 20px;
@@ -80,6 +82,10 @@
     background-color: #f9f9f9;
     border-radius: 10px;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    
+}
+.info-section p{
+    text-align: justify;
 }
 
 /* Estilos de la sección de valores */
@@ -338,7 +344,7 @@ footer .row a:hover {
 
     background-image: url("../assets/img/sophisticated-network-phone-wallpaper-4k.jpg ");
     background-repeat: no-repeat;
-    background-position: bottom;
+    background-position: top;
     /* background: linear-gradient(to right, #003366, #33cc33); */
     color: #333;
     border-top: 2px solid #0202f5;
@@ -411,8 +417,9 @@ footer .row a:hover {
 
 /* Contenedor general formulario */
 .container-form {
-    background: linear-gradient(to bottom, #f8f9fa, #e9ecef);
+    background: linear-gradient(to bottom, #f8f9fa, #1c446d);
     border: 1px solid #ddd;
+    width: 50%;
 }
 
 /* Títulos */
@@ -465,6 +472,9 @@ h2 {
     .btn-primary {
         width: 100%;
         font-size: 1rem;
+    }
+    .container-form{
+        width: 95%;
     }
 }
 
